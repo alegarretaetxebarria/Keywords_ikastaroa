@@ -12,6 +12,7 @@ keywords = {
     "luego": "request_despedida",
     "vista": "request_despedida",
     "agur": "request_despedida",
+    "aio": "request_despedida",
 
  
     "horario": "request_contacto_horarios",
@@ -31,11 +32,7 @@ keywords = {
     "prematriculacion": "request_pre_matricula",
     "pre-matricularme": "request_pre_matricula",
     "pre-matricular": "request_pre_matricula",
-    "pre-matriculacion": "request_pre_matricula",
-    "inscripcion": "request_pre_matricula",
-    "inscribirme": "request_pre_matricula",
-    "inscribir": "request_pre_matricula",
-    
+    "pre-matriculacion": "request_pre_matricula",    
 
     "matricula" : "request_matricula",
     "matriculas" : "request_matricula",
@@ -43,10 +40,14 @@ keywords = {
     "matricular": "request_matricula",
     "matriculacion": "request_matricula",
    
+    "inscripcion": "request_inscripcion",
+    "inscribirme": "request_inscripcion",
+    "inscribir": "request_inscripcion",
 
+    "telefono": "request_telefono",
+    "tlfno": "request_telefono",
+    
     "contacto" : "request_contacto",
-    "telefono": "request_contacto",
-    "tlfno": "request_contacto",
     "email": "request_contacto",
     "direccion": "request_contacto",
     "localizacion": "request_contacto",
@@ -86,9 +87,11 @@ answer = {
     "request_saludo": "¡Buenos días! Puedo ayudarte a contactar con el centro, proporcionarte información sobre prematricula/matricula y oferta", 
     "request_despedida": "Espero haberte ayudado. Gracias por tu visita! Hasta pronto!",
     "request_contacto_horarios" : "El horario del centro es de 08:00-17:30. El horario de secretaría es de 09:00-14:30. ",
+    "request_inscripcion" : "Aurre matrikula edo matrikulari buruz ari zara?",
     "request_pre_matricula": "El periodo de pre-matrícula es a partir de junio. Si rellenas el siguiente formulario (xxx (URL), cuando se publiquen las fechas oficiales te podremos avisar. Puedes inscribirte aquí: xxx (URL)",
     "request_matricula": "Para realizar la matrícula debes esperar a julio. La matrícula puedes realizarla aquí: xxx (URL)", 
     "request_contacto" : "Los datos de contacto del centro son: Teléfono: XXX XXX XXX. Email: xxxxxxx@gmail.com Dirección/Localización: XXXXXX",
+    "request_telefono" : "Zentruko telefono zenbakia XXX XXX XXX da",
     "request_oferta": "El centro tiene una gran oferta de formaciones para realizar. Puedes informarte sobre ellas aquí: xxx (URL)",
 
     "request_unknown": "Erantzuna ez dakit. Ezin dizut horretan lagundu. Ez naiz horretarako entrenatu"
