@@ -35,11 +35,11 @@ def clean_text(query):
     if sentence.startswith('¡'):
         sentence = sentence[1:]
     
-    # tildes = ['á','é','í','ó','ú','ü']
-    # vocales = ['a','e','i','o','u','u']
+    tildes = ['á','é','í','ó','ú','ü']
+    vocales = ['a','e','i','o','u','u']
    
-    # for idx, vocal in enumerate(vocales):        
-    #     sentence = re.sub(tildes[idx], vocal, sentence)
+    for idx, vocal in enumerate(vocales):        
+        sentence = re.sub(tildes[idx], vocal, sentence)
 
     sentence_array = sentence.split()
      

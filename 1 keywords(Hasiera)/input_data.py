@@ -38,6 +38,7 @@ keywords = {
     
 
     "matricula" : "request_matricula",
+    "matriculas" : "request_matricula",
     "matricularme": "request_matricula",
     "matricular": "request_matricula",
     "matriculacion": "request_matricula",
@@ -90,6 +91,6 @@ answer = {
     "request_contacto" : "Los datos de contacto del centro son: Teléfono: XXX XXX XXX. Email: xxxxxxx@gmail.com Dirección/Localización: XXXXXX",
     "request_oferta": "El centro tiene una gran oferta de formaciones para realizar. Puedes informarte sobre ellas aquí: xxx (URL)",
 
-    "request_unknown": "¡Vaya! Parece que no te he entendido muy bien. Puedo ayudarte a contactar con el centro, proporcionarte información sobre matricula y oferta"
+    "request_unknown": "Erantzuna ez dakit. Ezin dizut horretan lagundu. Ez naiz horretarako entrenatu"
 }
 
