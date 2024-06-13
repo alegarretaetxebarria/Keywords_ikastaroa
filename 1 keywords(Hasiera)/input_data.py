@@ -78,6 +78,12 @@ keywords = {
     "formacion": "request_oferta",
     "formaciones": "request_oferta",
     
+    "metodologia": "request_metodologia",
+    "reto": "request_metodologia ",
+    "retos": "request_metodologia ",
+    "erronka": "request_metodologia ",
+    "erronkak": "request_metodologia ",
+    "ethazi": "request_metodologia ",
 
 }
 
@@ -93,6 +99,7 @@ answer = {
     "request_contacto" : "Los datos de contacto del centro son: Teléfono: XXX XXX XXX. Email: xxxxxxx@gmail.com Dirección/Localización: XXXXXX",
     "request_telefono" : "Zentruko telefono zenbakia XXX XXX XXX da",
     "request_oferta": "El centro tiene una gran oferta de formaciones para realizar. Puedes informarte sobre ellas aquí: xxx (URL)",
+    "request_metodologia" : "Zentruko metodologia ETHAZI metodoan oinarritzen da, hau da, erronken bitartez ikaskuntza kolaboratiboan.",
 
     "request_unknown": "Erantzuna ez dakit. Ezin dizut horretan lagundu. Ez naiz horretarako entrenatu"
 }
